@@ -1,3 +1,11 @@
+/*
+UNIVERSIDAD DEL VALLE DE GUATEMALA
+DIEGO DE JESUS ARREDONDO TURCIOS
+SECCION 20
+19422
+LABORATORIO 3
+DESARROLLO DE APLICACIONES MOVILES Y JUEGOS
+*/
 package com.example.laboratorio3
 
 import androidx.appcompat.app.AppCompatActivity
@@ -17,12 +25,13 @@ class InfoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_info)
 
+        //Variables
         var comentar: Button = findViewById(R.id.button4)
         var comentario: EditText = findViewById(R.id.editText2)
         var title: TextView = findViewById(R.id.textView3)
         var information: TextView = findViewById(R.id.textView4)
 
-
+        //Obtiene la data del putExtra
         if (savedInstanceState == null) {
             val extras = intent.extras
             if (extras == null) {
@@ -41,7 +50,7 @@ class InfoActivity : AppCompatActivity() {
             information.setText(info)
         }
 
-
+        //Muestra el Toast del comentario y cierra vista
         comentar.setOnClickListener(){
             val toast = Toast.makeText(applicationContext, comentario.text, Toast.LENGTH_LONG)
             toast.show()

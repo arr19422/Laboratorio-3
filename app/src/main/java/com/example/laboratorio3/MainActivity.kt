@@ -1,3 +1,12 @@
+/*
+UNIVERSIDAD DEL VALLE DE GUATEMALA
+DIEGO DE JESUS ARREDONDO TURCIOS
+SECCION 20
+19422
+LABORATORIO 3
+DESARROLLO DE APLICACIONES MOVILES Y JUEGOS
+*/
+
 package com.example.laboratorio3
 
 import androidx.appcompat.app.AppCompatActivity
@@ -24,6 +33,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //Variables
         var show = true
         var texto: TextView = findViewById(R.id.textView)
         var nombre: TextView = findViewById(R.id.textView2)
@@ -33,6 +43,7 @@ class MainActivity : AppCompatActivity() {
         var puerto: Button = findViewById(R.id.button2)
         var float: FloatingActionButton = findViewById(R.id.floatingActionButton)
 
+        //Muestra y esconde los textView y el editText
         float.setOnClickListener(){
             if (show){
                 texto.setText(editText.text)
@@ -48,7 +59,7 @@ class MainActivity : AppCompatActivity() {
             }
 
         }
-
+        //Muestra otra vista con la informacion de Tikal
         tikal.setOnClickListener(){
             val intent = Intent(this, InfoActivity::class.java)
             intent.putExtra("info", R.string.tikal_info)
@@ -56,12 +67,14 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(intent)
         }
+        //Muestra otra vista con la informacion de Quirigua
         quirigua.setOnClickListener(){
             val intent = Intent(this, InfoActivity::class.java)
             intent.putExtra("info", R.string.quirigua_info)
             intent.putExtra("titulo", R.string.quirigua)
             startActivity(intent)
         }
+        //Muestra otra vista con la informacion de Quirigua
         puerto.setOnClickListener(){
             val intent = Intent(this, InfoActivity::class.java)
             intent.putExtra("info", R.string.puerto_info)
