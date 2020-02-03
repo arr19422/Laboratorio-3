@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Laboratorio 3</string>
+    <string name="tikal">Tikal</string>
+    <string name="nombre">Nombre</string>
+    <string name="guatemala">Guatemala</string>
+    <string name="puerto_barrios">Puerto Barrios</string>
+    <string name="quirigua">Quirigua</string>
+    <string name="name">Name</string>
+    <string name="imagen">Imagen</string>
+    <string name="comentario">Comentario</string>
+    <string name="textview">TextView</string>
+    <string name="comentar">comentar</string>
+
+    <string name="tikal_info"> Tikal es uno de los mayores yacimientos arqueológicos y centros urbanos de la civilización maya precolombina.
+        Está situado en el municipio de Flores, en el departamento de Petén, en el territorio actual de la República de Guatemala y forma parte
+        del Parque nacional Tikal, que fue declarado Patrimonio de la Humanidad, por Unesco, en 1979.1​ Según los glifos encontrados en el yacimiento,
+        su nombre maya habría sido Yax Mutul. Tikal fue la capital de un estado beligerante, que se convirtió en uno de los reinos más poderosos de los antiguos mayas.
+        ​Aunque la arquitectura monumental del sitio se remonta hasta el siglo iv a. C., Tikal alcanzó su apogeo durante el Período Clásico, entre el 200 y el 900 d. C.
+        Durante este tiempo, la ciudad dominó gran parte de la región maya, en el ámbito político, económico y militar; mantenía vínculos con otras regiones, a lo largo de
+        Mesoamérica, incluso con la gran metrópoli de Teotihuacan, en el lejano Valle de México</string>
+
+    <string name="puerto_info">Puerto Barrios (en honor al expresidente Justo Rufino Barrios) es un municipio y cabecera del departamento de Izabal, en la República de Guatemala.
+        Está ubicado a orillas de la Bahía interna de Santo Tomás, en la Bahía de Amatique en el Mar Caribe. La cabecera municipal, llamada Puerto Barrios, tiene categoría de ciudad
+        y es una de las más importantes en Guatemala, debido a sus actividades comerciales por ser el principal puerto en la costa atlántica guatemalteca.
+        El 22 de noviembre de 1896 se inauguró el tramo de Zacapa a Puerto Barrios del Ferrocarril del Norte.3​ En ese entonces el Norte de Guatemala era una región no explorada y la
+        construcción de la línea férrea era el inicio de la explotación industrial y comercial de la región.</string>
+
+    <string name="quirigua_info">Quiriguá es un yacimiento arqueológico perteneciente a la antigua civilización maya, ubicado en el departamento
+        de Izabal en el nor-oriente de Guatemala. Es un yacimiento de tamaño medio, con una superficie de aproximadamente 3 km², situado a lo largo
+        del curso inferior del río Motagua,1​ con su centro ceremonial ubicado a 1 km de la orilla norte del río.2​Durante el Período Clásico de la
+        civilización maya (200-900 d. C.), Quiriguá se encontraba en la confluencia de varias importantes rutas comerciales. El sitio fue ocupado desde
+        200 d. C. y la construcción de la acrópolis comenzó alrededor de 550 d. C. Un auge de construcciones impresionantes se inició en el siglo viii,
+        hasta que se detuvo toda actividad de construcción alrededor de 850 d. C., a excepción de un breve periodo de reocupación en el Posclásico Temprano
+        (c. 900 - c. 1200). Quiriguá comparte su estilo arquitectónico y escultórico con la ciudad cercana de Copán, cuya historia está estrechamente entrelazada
+        con la de Quirigua.</string>
+
+</resources>
